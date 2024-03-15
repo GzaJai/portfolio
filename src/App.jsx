@@ -31,7 +31,6 @@ function App() {
       <section className='w-[50%] my-[12%] mx-auto flex items-center justify-around '>
         <Hero desc={data.description }></Hero>
       </section>
-      {/* <img src={ cv } alt="" /> */}
       <section id='about-me'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>About me</h3>
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am? <span className='text-xs'>(seriously who i am?)</span></p>

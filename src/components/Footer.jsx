@@ -8,12 +8,12 @@ const Footer = () => {
             <ul className='flex gap-10'>
                 <li className='hover:bg-indigo-400 duration-150 p-4 rounded-full'>
                     <a href="https://github.com/GzaJai" target='_blank'>
-                         <img src="../../public/Github.svg" alt="Github logo" />
+                         <img src="/public/logos/Github.svg" alt="Github logo" />
                     </a>
                 </li>
                 <li className='hover:bg-indigo-400 duration-150 p-4 rounded-full'>
                     <a href="https://www.linkedin.com/in/gjaimeguinazu/" target='_blank'>
-                        <img src="../../public/LinkedIn.svg" alt="LinkedIn logo" />
+                        <img src="/public/logos/LinkedIn.svg" alt="LinkedIn logo" />
                     </a>
                 </li>
             </ul>

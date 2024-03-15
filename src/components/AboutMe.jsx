@@ -34,7 +34,7 @@ const AboutMe = () => {
         <a className='box-content p-3 w-[30%] h-fit bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white' href="https://drive.google.com/file/d/1D3soKZYe1209oMMfySGhf3czffn0tLLO/view?usp=sharing" target='_blank'>
             <div>
                 <p className='font-bold w-fit mx-auto'>Check out my</p>
-                    <img src="/public/cv.svg" alt="" />
+                    <img src="/public/images/cv.svg" alt="" />
                 <p className='font-bold w-fit mx-auto'>for more info</p>
             </div>
         </a>
