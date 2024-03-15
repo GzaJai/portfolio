@@ -1,0 +1,24 @@
+[
+    {
+        "description" : "hola, soy desarrollador full-stack argentino, preparado en el ITBA. Puedes conocer mas acerca de mi a lo largo de mi portfolio"
+    },
+    {
+        "projects" : [
+            {
+            "id": 0, 
+            "title": "Country Hunt",
+            "description": "this is a simple game about matching country flags with their names.",
+            "image" : "ch compressed",
+            "url" : "https://country-hunt.gonzalojaime.tech/"
+            },
+            {
+            "id": 1, 
+            "title": "Guess the number",
+            "description": "this is a simple game about matching country flags with their names.",
+            "image" : "gtn compressed",
+            "url" : "https://guess-the-number.gonzalojaime.tech/"
+            }
+        ]
+    }   
+]
+
