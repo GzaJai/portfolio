@@ -34,7 +34,7 @@ const AboutMe = () => {
         <a className='box-content p-3 w-[30%] h-fit bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white' href="https://drive.google.com/file/d/1D3soKZYe1209oMMfySGhf3czffn0tLLO/view?usp=sharing" target='_blank'>
             <div>
                 <p className='font-bold w-fit mx-auto'>Check out my</p>
-                    <img src="https://github.com/GzaJai/portfolio/blob/main/public/images/Cv.svg" alt="" />
+                    <img src="https://raw.githubusercontent.com/GzaJai/portfolio/18029456ed30cd57844e1d5d8721140c2479e090/public/images/Cv.svg" alt="" />
                 <p className='font-bold w-fit mx-auto'>for more info</p>
             </div>
         </a>
