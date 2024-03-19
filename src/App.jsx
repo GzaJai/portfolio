@@ -7,6 +7,7 @@ import ProjectWrapper from './components/ProjectWrapper'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import AboutMe from './components/AboutMe'
+import ContactForm from './components/ContactForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +34,7 @@ function App() {
       </section>
       <section id='about-me'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>About me</h3>
-        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am? <span className='text-xs'>(seriously who i am?)</span></p>
+        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am?</p>
         <AboutMe></AboutMe>
       </section>
       <section id='projects'>
@@ -41,6 +42,12 @@ function App() {
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>take a look into my projects</p>
         <ProjectWrapper projects={projects}>
         </ProjectWrapper>
+      </section>
+      <section id='contact'>
+        <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Contact me</h3>
+        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>get in touch</p>
+        <ContactForm>
+        </ContactForm>
       </section>
       <Footer></Footer>
     </>
