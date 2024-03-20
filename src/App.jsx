@@ -14,22 +14,22 @@ function App() {
   const [projects, setProjects] = useState([])
 
   useEffect(() => {
-    setData(dataFromJson[0])
+    setData(dataFromJson)
     if (data) {
       console.log(data);
     }
-    setProjects(dataFromJson[1].projects)
+    setProjects(dataFromJson[0].projects)
     if (projects) {
       console.log(projects[0]);
     }
-  },)
+  },[])
   
 
   return (
     <>
       <Header></Header>
       <section className='w-[50%] my-[12%] mx-auto flex items-center justify-around '>
-        <Hero desc={data.description }></Hero>
+        <Hero></Hero>
       </section>
       <section id='about-me' className='mt-12 pt-12'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>About me</h3>

@@ -1,8 +1,5 @@
 [
     {
-        "description" : "hola, soy desarrollador full-stack argentino, preparado en el ITBA. Puedes conocer mas acerca de mi a lo largo de mi portfolio"
-    },
-    {
         "projects" : [
             {
             "id": 0, 
