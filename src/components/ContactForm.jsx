@@ -29,7 +29,7 @@ const ContactForm = () => {
     };
 
   return (
-    <div className='flex w-[50%] mx-auto mb-72 text-[#333] items-start'>
+    <div className='flex w-[80%] mx-auto mb-32 text-[#333] items-start'>
         <form id="form" className='bg-indigo-400 rounded-lg flex flex-col items-center mx-auto p-[2rem] w-[90%]' ref={form} onSubmit={sendEmail}>
             <div className="p-[1rem] flex flex-col w-[90%]">
                 <label for="from_name" className='font-bold'>Name</label>

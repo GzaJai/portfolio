@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='w-full h-[13rem] mt-24 bg-orange-500 flex items-center justify-center text-[#333]'>
-        <div className='w-[60%] flex items-center justify-around'>
-            <h3 className='text-4xl font-bold'>Gonzalo Jaime</h3>
-            <ul className='flex gap-10'>
+    <footer className='h-[13rem] mt-12 bg-orange-500 flex items-center justify-center text-[#333]'>
+        <div className='w-[80%] flex items-center justify-around'>
+            <h3 className='text-2xl font-bold'>Gonzalo Jaime</h3>
+            <ul className='flex gap-2'>
                 <li className='hover:bg-indigo-400 duration-150 p-4 rounded-full'>
                     <a href="https://github.com/GzaJai" target='_blank'>
                          <img src="https://raw.githubusercontent.com/GzaJai/portfolio/5704c51e4f75bc48335be4e7c54a4df0b2f2c722/public/logos/Github.svg" alt="Github logo" />
