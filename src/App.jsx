@@ -32,18 +32,18 @@ function App() {
       <section className='w-[50%] my-[12%] mx-auto flex items-center justify-around '>
         <Hero desc={data.description }></Hero>
       </section>
-      <section id='about-me'>
+      <section id='about-me' className='mt-12 pt-12'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>About me</h3>
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am?</p>
         <AboutMe></AboutMe>
       </section>
-      <section id='projects'>
+      <section id='projects' className='mt-12 pt-12'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Projects</h3>
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>take a look into my projects</p>
         <ProjectWrapper projects={projects}>
         </ProjectWrapper>
       </section>
-      <section id='contact'>
+      <section id='contact' className='mt-12 pt-12'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Contact me</h3>
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>get in touch</p>
         <ContactForm>
