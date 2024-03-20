@@ -3,10 +3,10 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <header className='mt-6'>
-        <div className='mx-5 flex justify-between items-center gap-20 max-sm:ml-[3rem] '>
-          <h1 className='font-bold text-lg max-sm:text-3xl'>Gonzalo Jaime</h1>
-          <nav className='flex list-none gap-3 text-md font-bold max-sm:hidden'>
+      <header className='mt-12 mb-8'>
+        <div className='mx-5 flex justify-between items-center gap-20 max-sm:ml-[3rem] md:w-[45%] md:mx-auto '>
+          <h1 className='font-bold text-lg md:text-3xl'>Gonzalo Jaime</h1>
+          <nav className='flex list-none gap-6 text-xl font-bold max-sm:hidden'>
             <li>
               <a href="#about-me" className='hover:text-orange-500 duration-150'>
                 about me
@@ -25,7 +25,7 @@ const Header = () => {
           </nav>
         </div>
         </header>
-        <hr className='w-1/2 mt-8 mx-auto border-gray-600 max-sm:w-[80%]' />
+        <hr className='w-[40%] mx-auto border-gray-600 max-sm:w-[80%]' />
     </>
   )
 }

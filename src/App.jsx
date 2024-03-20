@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <section className='w-[30%] my-[12%] mx-auto flex items-center justify-around '>
+      <section className='w-[50%] my-[12%] mx-auto flex items-center justify-around '>
         <Hero desc={data.description }></Hero>
       </section>
       <section id='about-me' className='mt-12 pt-12'>
@@ -36,7 +36,7 @@ function App() {
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am?</p>
         <AboutMe></AboutMe>
       </section>
-      <section id='projects' className='mt-8 pt-1'>
+      <section id='projects' className='mt-8 pt-12'>
         <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Projects</h3>
         <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>take a look into my projects</p>
         <ProjectWrapper projects={projects}>
