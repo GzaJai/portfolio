@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <section className='w-[40%] my-[12%] mx-auto flex items-center justify-around md:w-[50%] max-md:w-[60%] max-md:text-pretty'>
+      <section className='w-[40%] my-[12%] mx-auto flex items-center justify-around md:w-[50%] max-md:w-[70%] max-md:mb-28 max-md:text-pretty'>
         <Hero></Hero>
       </section>
       <section id='about-me' className='mt-12 pt-12'>
