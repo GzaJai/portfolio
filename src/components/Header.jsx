@@ -23,7 +23,7 @@ const Header = () => {
               </a>
             </li>
           </nav>
-          <img className='w-[4rem] bg-indigo-400 p-1 rounded-full' src="https://raw.githubusercontent.com/GzaJai/portfolio/main/public/images/yo-portfolio.png" alt="" />
+          <img className='w-[4rem] bg-indigo-400 p-1 rounded-full md:hidden' src="https://raw.githubusercontent.com/GzaJai/portfolio/main/public/images/yo-portfolio.png" alt="" />
         </div>
         </header>
         <hr className='w-[40%] mx-auto border-gray-600 max-sm:w-[80%]' />
