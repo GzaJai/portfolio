@@ -2,17 +2,17 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='flex flex-col w-[40%] mb-40 text-[#333] items-center mx-auto md:w-[50%] 2xl:flex-row md:mb-52'>
+    <div className='flex flex-col w-[70%] mb-40 text-[#333] items-center mx-auto md:w-[50%] 2xl:flex-row md:mb-52 md:flex-row md:justify-start'>
         <div className=''>
             <div className='w-[100%] font-medium text-lg md:w-[90%]'>
                 <p>Hello, I'm Gonzalo Jaime. A full-stack developer from Argentina. </p>
                 <p>Currently I'm studying at the University, but I have done some development courses that give me a pretty solid stack.</p>
                 <p>I got some experience as a freelancer as well. I've done some projects for myself to improve and reinforce my skills, and some other to sell.</p>
             </div>
-            <div className='flex gap-[2rem] max-2xl:justify-around'>
-                <div className='w-[30%] mt-12 p-4 flex flex-col bg-indigo-300 rounded-lg text-center 2xl:flex-row md:w-fit md:items-center'>
+            <div className='flex flex-col w-[100%] gap-[2rem] items-center max-2xl:justify-around'>
+                <div className='flex-col mt-12 p-4 flex bg-indigo-300 rounded-lg text-center 2xl:flex-row md:w-fit md:items-center'>
                     <h4 className='text-lg font-semibold md:font-bold md:mr-3'>Front-end skills</h4>
-                    <div className='flex flex-col mt-2 2xl:flex-row'>
+                    <div className='flex flex-wrap mt-2 2xl:flex-row'>
                         <img src="/skills/javascript.svg" alt="" />
                         <img src="/skills/reactjs.svg" alt="" />
                         <img src="/skills/nextjs.svg" alt="" />
@@ -20,9 +20,9 @@ const AboutMe = () => {
                         <img src="/skills/bootstrap.svg" alt="" />
                     </div>
                 </div>
-                <div className='w-[30%] mt-12 p-4 flex flex-col bg-indigo-300 rounded-lg text-center 2xl:flex-row md:w-fit md:items-center'>
+                <div className='flex flex-col mt-12 p-4 bg-indigo-300 rounded-lg text-center 2xl:flex-row md:w-fit md:items-center'>
                     <h4 className='text-lg font-semibold md:font-bold md:mr-3'>Back-end skills</h4>
-                    <div className='flex flex-col mt-2 2xl:flex-row'>
+                    <div className='flex mt-2 2xl:flex-row'>
                         <img src="/skills/python.svg" alt="" />
                         <img src="/skills/django.svg" alt="" />
                         <img src="/skills/nodejs.svg" alt="" />
