@@ -32,19 +32,19 @@ function App() {
         <Hero></Hero>
       </section>
       <section id='about-me' className='mt-12 pt-12'>
-        <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>About me</h3>
-        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am?</p>
+        <h3 className='w-[70%] mx-auto mb-7 font-bold text-3xl'>About me</h3>
+        <p className='w-[70%] mx-auto mb-24 font-medium text-lg text-indigo-400'>who i am?</p>
         <AboutMe></AboutMe>
       </section>
       <section id='projects' className='mt-8 pt-12'>
-        <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Projects</h3>
-        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>take a look into my projects</p>
+        <h3 className='w-[70%] mx-auto mb-7 font-bold text-3xl'>Projects</h3>
+        <p className='w-[70%] mx-auto mb-24 font-medium text-lg text-indigo-400'>take a look into my projects</p>
         <ProjectWrapper projects={projects}>
         </ProjectWrapper>
       </section>
       <section id='contact' className='mt-12 pt-12'>
-        <h3 className='w-[50%] mx-auto mb-7 font-bold text-3xl'>Contact me</h3>
-        <p className='w-[50%] mx-auto mb-24 font-medium text-lg text-indigo-400'>get in touch</p>
+        <h3 className='w-[70%] mx-auto mb-7 font-bold text-3xl'>Contact me</h3>
+        <p className='w-[70%] mx-auto mb-24 font-medium text-lg text-indigo-400'>get in touch</p>
         <ContactForm>
         </ContactForm>
       </section>
