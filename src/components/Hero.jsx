@@ -12,7 +12,7 @@ const Hero = () => {
             I'm Gonzalo Jaime, a software development student.  
           </p>
         </div>
-        <img className='w-[20rem] bg-indigo-400 p-4 rounded-full' src="https://raw.githubusercontent.com/GzaJai/portfolio/main/public/images/yo-portfolio.png" alt="" />
+        <img className='w-[20rem] bg-indigo-400 p-4 rounded-full max-md:hidden' src="https://raw.githubusercontent.com/GzaJai/portfolio/main/public/images/yo-portfolio.png" alt="" />
     </>
   )
 }
