@@ -4,21 +4,22 @@
             {
             "id": 0, 
             "title": "Country Hunt",
-            "description": "this is a simple game about matching country flags with their names.",
+            "description": "This is a simple game about matching country flags with their names.",
+            "long_description":"I made this project to practice API consuming. It was built using ReactJS and pure CSS.",
             "image" : "ch-compressed",
             "url" : "https://country-hunt.gonzalojaime.tech/"
             },
             {
             "id": 1, 
             "title": "Guess the number",
-            "description": "this is a simple game about matching country flags with their names.",
+            "description": "This is an old game that I use to play with my gf, I don't know where it cames from",
             "image" : "gtn-compressed",
             "url" : "https://guess-the-number.gonzalojaime.tech/"
             },
             {
             "id": 2, 
             "title": "Consultora ALC",
-            "description": "a webpage done for a freelance client.",
+            "description": "A webpage done for a freelance client.",
             "image" : "alc-consultora",
             "url" : "https://consultora-alc.online"
             }
