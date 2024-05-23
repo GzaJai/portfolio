@@ -12,14 +12,14 @@
             {
             "id": 1, 
             "title": "Guess the number",
-            "description": "This is an old game that I use to play with my gf, I don't know where it cames from",
+            "description": "This is an old game that I use to play with my gf. The game is about finding the hidden number",
             "image" : "gtn-compressed",
             "url" : "https://guess-the-number.gonzalojaime.tech/"
             },
             {
             "id": 2, 
             "title": "Consultora ALC",
-            "description": "A webpage done for a freelance client.",
+            "description": "A webpage built for a freelance client. I used PHP due to hosting limitations, and Bootstrap",
             "image" : "alc-consultora",
             "url" : "https://consultora-alc.online"
             }
