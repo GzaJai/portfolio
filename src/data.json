@@ -19,9 +19,6 @@
             "id": 2, 
             "title": "Country Hunt",
             "description": "This is a simple game about matching country flags with their names.",
-            "long_description":"I made this project to practice API consuming. It was built using ReactJS and pure CSS.",
-            "description": "This is a simple game about matching country flags with their names.",
-            "long_description":"I made this project to practice API consuming. It was built using ReactJS and pure CSS.",
             "image" : "ch-compressed",
             "url" : "https://country-hunt.gonzalojaime.tech/"
             },
