@@ -13,21 +13,21 @@
             "title": "Presupuestos Online",
             "description": "Budget Generator for business.",
             "image" : "po-compressed",
-            "url" : "https://presupuestos.gonzalojaime.tech/"
+            "url" : "https://presupuestos.gonzalojaime.codes/"
             },
             {
             "id": 2, 
             "title": "Country Hunt",
             "description": "This is a simple game about matching country flags with their names.",
             "image" : "ch-compressed",
-            "url" : "https://country-hunt.gonzalojaime.tech/"
+            "url" : "https://country-hunt.gonzalojaime.codes/"
             },
             {
             "id": 3, 
             "title": "Guess the number",
             "description": "This is an old game that I use to play with my gf, I don't know where it cames from",
             "image" : "gtn-compressed",
-            "url" : "https://guess-the-number.gonzalojaime.tech/"
+            "url" : "https://guess-the-number.gonzalojaime.codes/"
             }
         ]
     }   
