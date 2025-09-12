@@ -29,7 +29,7 @@ const AboutMe = () => {
                     </div>
 
                 </div>
-                <a className='box-content p-3 w-[30%] mt-[3rem] bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white md:w-[20%] 2xl:hidden' href="https://drive.google.com/file/d/1D3soKZYe1209oMMfySGhf3czffn0tLLO/view?usp=sharing" target='_blank'>
+                <a className='box-content p-3 w-[30%] mt-[3rem] bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white md:w-[20%] 2xl:hidden' href="https://drive.google.com/file/d/1redMsxAEaUpyPs-slkqpAG9fZxGjFUbX/view?usp=sharing" target='_blank'>
                     <div>
                         <p className='font-bold w-fit mx-auto text-center mb-3'>Check out my</p>
                             <img src="https://raw.githubusercontent.com/GzaJai/portfolio/18029456ed30cd57844e1d5d8721140c2479e090/public/images/Cv.svg" alt="" />
@@ -38,7 +38,7 @@ const AboutMe = () => {
                 </a>
             </div>
         </div>
-        <a className='box-content p-3 w-[50%] mt-[3rem] bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white md:w-[20%] max-2xl:hidden' href="https://drive.google.com/file/d/1D3soKZYe1209oMMfySGhf3czffn0tLLO/view?usp=sharing" target='_blank'>
+        <a className='box-content p-3 w-[50%] mt-[3rem] bg-indigo-500 hover:bg-orange-500 duration-150 flex flex-col items-center justify-center rounded-lg text-white md:w-[20%] max-2xl:hidden' href="https://drive.google.com/file/d/1redMsxAEaUpyPs-slkqpAG9fZxGjFUbX/view?usp=sharing" target='_blank'>
             <div>
                 <p className='font-bold w-fit mx-auto text-center mb-3'>Check out my</p>
                     <img src="https://raw.githubusercontent.com/GzaJai/portfolio/18029456ed30cd57844e1d5d8721140c2479e090/public/images/Cv.svg" alt="" />
