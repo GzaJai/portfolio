@@ -32,7 +32,7 @@
             {
             "id": 4, 
             "title": "Guess the number",
-            "description": "This is an old game that I use to play with my gf, I don't know where it cames from",
+            "description": "This game consists of guessing a secret four-digit number, receiving “good” for digits that are correct and well-placed, and “regular” for digits that are correct but in the wrong position.",
             "image" : "gtn-compressed",
             "url" : "https://guess-the-number.gonzalojaime.codes/"
             }
