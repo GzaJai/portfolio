@@ -20,9 +20,8 @@ const InfoModal = ({ closeFunc, isOpen, projectObject }) => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 p-4">
           <div
             ref={modal}
-            className="relative bg-white w-full max-w-md max-h-[90vh] rounded-xl p-6 overflow-y-auto"
+            className="relative bg-white md:w-[50dvw] max-h-[80vh] rounded-xl p-6 overflow-y-auto"
           >
-            {/* Cerrar */}
             <button
               onClick={closeFunc}
               className="absolute top-3 right-3 bg-red-600 text-white w-9 h-9 flex items-center justify-center rounded-lg font-bold"
@@ -30,23 +29,19 @@ const InfoModal = ({ closeFunc, isOpen, projectObject }) => {
               X
             </button>
 
-            {/* Título */}
             <h3 className="text-2xl font-bold mb-4 text-center">
               {projectObject.title}
             </h3>
 
-            {/* Imagen */}
             <img
-              className="w-full rounded-md mb-4"
+              className="w-full rounded-md mb-4 max-h-[50vh] object-contain"
               src={`https://raw.githubusercontent.com/GzaJai/portfolio/main/public/images/${projectObject.image}.png`}
               alt=""
             />
 
-            {/* Texto */}
-            <p className="mb-3">{projectObject.description}</p>
+            <p className="py-2 text-center">{projectObject.description}</p>
             <p className="mb-6">{projectObject.long_description}</p>
 
-            {/* Botón */}
             <a
               href={projectObject.url}
               target="_blank"
